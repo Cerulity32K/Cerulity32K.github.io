@@ -1,0 +1,17 @@
+Fidget Restore:
+
+http://grownups.pbskids.org/designsquad/games/fidgit/php/getInfo.php
+http://grownups.pbskids.org/designsquad/games/fidgit/Challenges.swf
+https://pbskids.org/crossdomain.xml
+https://twitter.com/DesignSquad/media
+http://grownups.pbskids.org/designsquad/games/fidgit/floader.swf
+http://52.21.3.132/designsquad/games/
+http://grownups.pbskids.org/crossdomain.xml
+http://54.210.94.10/designsquad/games/fidgit/index.html
+
+DESIGNiT, BUILDiT, FIDGiT
+Solve challenges to save tiny creatures called Fidgits! Check out the library of challenges or make your own to share with friends.
+
+http://grownups.pbskids.org/
+http://52.21.3.132/
+http://54.210.94.10/

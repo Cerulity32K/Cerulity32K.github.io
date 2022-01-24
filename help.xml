@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helper>
+<!--Home Screen-->
+
+	<help x="250" y="135" name="challenge" type="home">
+		<pic>images/challenge.jpg</pic>
+		<title>Playing Challenges</title>
+		<desc><![CDATA[Solve these challenges and rescue the Fidgits! Click this button to see all the challenges you can play.]]></desc>
+	</help>
+	
+	<help x="544" y="135" name="build" type="home">
+		<pic>images/build.jpg</pic>
+		<title>Build Your Own Rooms</title>
+		<desc><![CDATA[You can make your own rooms for your Fidgits! Click this button to get started.]]></desc>
+	</help>
+	
+	<help x="750" y="465" name="addfriends" type="home">
+		<pic>images/addfriends.jpg</pic>
+		<title>Adding Friends</title>
+		<desc><![CDATA[You and your friends can make rooms and share them with each other! If you want to invite a friend to play, give him or her your <b>secret code</b>. Your friend can sign in to FIDGiT game and type in your secret code. Then you will see your friend's name on your Friend List. Now you can start sharing rooms with each other!]]></desc>
+	</help>
+	
+	<help x="750" y="57" name="login" type="home">
+		<pic>images/login.jpg</pic>
+		<title>Log in to the game</title>
+		<desc><![CDATA[Log in here with your PBS Kids GO! user name and password. Then you can save your stuff and share with friends!]]></desc>
+	</help>
+	
+<!--Challenge Screen-->
+	
+	<help x="560" y="100" name="chalmenu" type="challenge">
+		<pic>images/challenge_menu.jpg</pic>
+		<title>Challenge Menu</title>
+		<desc><![CDATA[Pick a challenge to play. There are many different kinds. The ones at the top of the menu will help you get started.]]></desc>
+	</help>
+	<help x="750" y="140" name="stats" type="challenge">
+		<pic>images/stats_panel.jpg</pic>
+		<title>Fidgit Stats</title>
+		<desc><![CDATA[This shows you how many Challenges you've completed, and how many Fidgits you have saved along the way!]]></desc>
+	</help>
+
+<!--Workshop Screen-->
+
+<help x="310" y="30" name="myrm" type="workshop">
+		<pic>images/my_rooms.jpg</pic>
+		<title>My Rooms</title>
+		<desc><![CDATA[This is where you keep all the Rooms you make for your Fidgits. The newest rooms are at the top.]]></desc>
+	</help>
+	<help x="450" y="30" name="fdrm" type="workshop">
+		<pic>images/friends_rooms.jpg</pic>
+		<title>My Friends' Rooms</title>
+		<desc><![CDATA[In the <b>My Friends' Rooms</b> menu, you can see all the Rooms your Friends have shared with you. You can try the rooms out and then save them to keep in your own collection!]]></desc>
+	</help>
+	<help x="50" y="125" name="newrm" type="workshop">
+		<pic>images/new_room.jpg</pic>
+		<title>Start a New Room</title>
+		<desc><![CDATA[Click the <b>New Room</b> button to make your own room! You can pick a background picture, and even make your room <b>windy</b> or have low gravity like the <b>moon</b>!]]></desc>
+	</help>
+	<help x="750" y="465" name="addfds" type="workshop">
+		<pic>images/addfriends.jpg</pic>
+		<title>Your Friends List</title>
+		<desc><![CDATA[You and your friends can make rooms and share them with each other! If you want to invite a friend to play, give him or her your <b>secret code</b>. Your friend can sign in to the FIDGiT game and type in your secret code. Then you will see your friend's name on your Friend List. Now you can start sharing rooms with each other!]]></desc>
+	</help>
+	
+<!--Build Screen-->	
+	<help x="0" y="0" name="FDR" type="build">
+		<pic>images/dropper.jpg</pic>
+		<title>Custom Fidgit Dropper</title>
+		<desc><![CDATA[The <b>Custom Fidgit Dropper</b> releases Fidgits into the room only when you press its big button. When you make your own Custom Room, you can use this to drop as many Fidgits as you like. When the Figits are waiting at the top of the room, they have <b>potential</b> energy, just waiting to be released!<br /><br /><b>What's Potential Energy</b>?<br />Potential energy is often called "stored" energy; energy that could be released as motion. The amount of potential energy depends on where the object is located. Here's an example. <br />In this game, the Fidgits wait to be released from their tube high above the floor. They aren't moving anywhere yet. They have Potential energy.<br /><br />But, the moment the Fidgits are released from the tube, they begin to move. The potential energy changes into kinetic energy as they fall toward the floor.<br />		]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="FGB" type="build">
+		<pic>images/box.jpg</pic>
+		<title>Fidgit Box</title>
+		<desc><![CDATA[The <b>Fidgit Box</b> is your goal. That's where the Fidgits want to be! But you have to get the right kind of Fidgit into the right box. The "properties" of Fidgits are size and color. <br /><br /><b>What are Properties of an object</b>?<br />People describe objects in many ways, for example, by color, shape, texture, and size. These are an object's physical properties, they describe how an object looks, feels, or acts. Physical properties can help us identify and categorize things we encounter each day.<br /><br />Understanding an object’s physical properties can help us in other ways, too. For example, knowing a material's "rigidity" or "elasticity" can help engineers make good design decisions, from how to design safer skyscrapers to how to take high-performance outdoor gear to the next level.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="RB" type="build">
+		<pic>images/block.jpg</pic>
+		<title>Bounce Block</title>
+		<desc><![CDATA[The <b>Bounce Block</b> can be used to bounce your Fidgits in a new direction. You can change the <b>material</b> of the rubber block using the <b>custom</b> button. This will change how far Fidgits will bounce off of the block.<br /><br /><b>What's a Material</b>?<br />A material is any physical substance that can be used to make stuff. Wood, rubber, concrete, plastic, steel… these are all examples of materials.<br /><br /> Different materials have very different properties. So if you’re thinking about building something, it’s a good idea to consider your options. One material may be far better suited for a job than another. Before choosing a material to build with, engineers consider things like its strength, weight, and durability.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="FB" type="build">
+		<pic>images/fixed.jpg</pic>
+		<title>Fixed Block</title>
+		<desc><![CDATA[The <b>Fixed Block</b> is made of a hard plastic <b>material</b>. You can rotate these blocks, and put them anywhere in the room. Fidgits won't bounce very far off of these.<br /><br /><b>What's a Material</b>?<br />A material is any physical substance that can be used to make stuff. Wood, rubber, concrete, plastic, steel… these are all examples of materials.<br /><br /> Different materials have very different properties. So if you’re thinking about building something, it’s a good idea to consider your options. One material may be far better suited for a job than another. Before choosing a material to build with, engineers consider things like its strength, weight, and durability.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="PV" type="build">
+		<pic>images/pvc.jpg</pic>
+		<title>PVC Tube</title>
+		<desc><![CDATA[The <b>PVC Tube</b> is made of a hard plastic <b>material</b> called "PVC." Fidgits can roll through the hollow middle of the tube.<br /><br /><b>What are PVC Tubes used for</b>?<br />PVC, or polyvinyl chloride, has become one of the most commonly used plastics. This is because it is strong, lightweight, durable, and non-flammable.<br />PVC Tubes serve most all of us in our daily lives,though they’re often hidden from view. They pipe drinking water into our houses and carry wastewater out. They also channel oil and natural gas through underground pipelines. While metal pipes are traditionally used for these purposes, PVC performs the same job and in most cases represents a cheaper alternative that’s easier to install.]]></desc>
+	</help>
+	
+	
+	<help x="0" y="0" name="FC" type="build">
+		<pic>images/combiner.jpg</pic>
+		<title>Fidgit Combiner</title>
+		<desc><![CDATA[The <b>Fidgit Combiner</b> is a machine that takes two Fidgits and combines them! Just put two smaller Fidgits into the top and then one bigger one comes out at the bottom.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="FD" type="build">
+		<pic>images/divider.jpg</pic>
+		<title>Fidgit Divider</title>
+		<desc><![CDATA[The <b>Fidgit Divider</b> is a machine that takes one Fidgit and divides it into two smaller ones. Don't worry, the Fidgits don't get hurt!]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="FP" type="build">
+		<pic>images/paint.jpg</pic>
+		<title>Fidgit Painter</title>
+		<desc><![CDATA[Use the <b>Fidgit Painter</b> to change the color of your Fidgits! To pick a new paint color, first press the <b>custom</b> button, and then click on the Painter. You'll see many colors to choose from!]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="PD" type="build">
+		<pic>images/pendulum.jpg</pic>
+		<title>Pendulum</title>
+		<desc><![CDATA[The <b>Pendulum</b> is kind of like a ball on a string. On one end,the string is attached to the wall, and on the other end, the ball swings back and forth on the string. You can drag the end of the pendulum to change the length of the string.<br /><br /><b>What's a pendulum</b>?<br />Suspend an object from a length of string or wire, and tada! ... you’ve got a <b>pendulum</b>! The heavy part hanging at the end of the string is called the "bob." When you pull the bob to one side and let it go, it starts to swings back and forth. This happens because as you pull it to the side, you're also pulling the "bob" up a little. <br />When you let go, gravity pulls the bob downward and causes acceleration. As it swings, a pendulum converts kinetic energy (energy of motion) into potential energy (stored energy) and back into kinetic energy again. If outside forces like friction and air resistance didn’t slow it down, the pendulum would swing on and on forever!<br />]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="SP" type="build">
+		<pic>images/spring.jpg</pic>
+		<title>Spring</title>
+		<desc><![CDATA[The <b>Spring</b> launches Fidgits high in the air! To change which way the Fidgits bounce, first press the <b>custom</b> button. Then click the Left, Straight, or Right buttons.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="EP" type="build">
+		<pic>images/elbow.jpg</pic>
+		<title>PVC Elbow Tube</title>
+		<desc><![CDATA[This <b>PVC Elbow Tube</b> is made out of a hard plastic <b>material</b> called "PVC." Fidgits can roll through the hollow middle of the tube.<br /><br /><b>What are PVC Tubes used for</b>?<br />PVC, or polyvinyl chloride, has become one of the most commonly used plastics. This is because it is strong, lightweight, durable, and non-flammable.<br />PVC Tubes serve most all of us in our daily lives,though they’re often hidden from view. They pipe drinking water into our houses and carry wastewater out. They also channel oil and natural gas through underground pipelines. While metal pipes are traditionally used for these purposes, PVC performs the same job and in most cases represents a cheaper alternative that’s easier to install.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="CB" type="build">
+		<pic>images/conveyer.jpg</pic>
+		<title>Conveyer Belt</title>
+		<desc><![CDATA[The <b>Conveyer Belt</b> moves Fidgits sideways when they fall on top of it. You can change the direction and speed in which the belt moves. First, click the <b>custom</b> button. You can choose a Slow, Medium or Fast speed. Then, click the left or right arrows to choose the direction you want the Fidgits to move.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="FCN" type="build">
+		<pic>images/fidgitcannon.jpg</pic>
+		<title>Fidgit Cannon</title>
+		<desc><![CDATA[The <b>Fidgit Cannon</b> is a machine that shoots out Fidgits at a high velocity! Just drop a Fidgit in the top and watch it fly. You can change the direction they go by moving the end of the Fidgit Cannon's chute.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="playtest" type="build">
+		<pic>images/playbuild.jpg</pic>
+		<title>Play / Build</title>
+		<desc><![CDATA[When the Build button is pressed, you can drag and drop your parts in the room. Then press the <b>Play</b> button to test it out! You can click the play button again to drop the Fidgits again.<br />]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="move" type="build">
+		<pic>images/move.jpg</pic>
+		<title>Move</title>
+		<desc><![CDATA[If you want to move a part, first click the <b>Move</b> button and then click and drag the parts in your room.<br />]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="rotate" type="build">
+		<pic>images/rotate.jpg</pic>
+		<title>Rotate</title>
+		<desc><![CDATA[Click the <b>Rotate</b> button if you want to change the rotation of a part. After you click the buttom, any part that you can rotate will be highlighted with a yellow border. Click and drag the yellow border to rotate that part.<br />]]></desc>
+	</help>
+	<help x="0" y="0" name="custom" type="build">
+		<pic>images/custom.jpg</pic>
+		<title>Custom</title>
+		<desc><![CDATA[Click the <b>Custom</b> button to customize some of your parts. After you click the buttom, any part that you can customize will be highlighted with a green border. Click on the green border to see the custom settings for each part.<br />]]></desc>
+	</help>
+	
+	<!--How To Play-->	
+	<help x="0" y="0" name="1" type="main">
+		<pic>images/m1.jpg</pic>
+		<title>Intro</title>
+		<desc><![CDATA[Fidgits have to move! But they can't get anywhere on their own. Your goal is to bounce, flip and roll the Fidgits safely to their box.<br />If Fidgits get stuck somewhere for too long, they'll vanish into thin air. So you better keep them moving!]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="2" type="main">
+		<pic>images/m2.jpg</pic>
+		<title>Build & Play</title>
+		<desc><![CDATA[First, press "Play" to release the Fidgits from their Tube. Watch what happens. Did the Fidgits get to their box? <br />Then try building something. Drag and drop the parts into the room. To remove a part, drag it back to the parts list.]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="3" type="main">
+		<pic>images/m3.jpg</pic>
+		<title>Try new things</title>
+		<desc><![CDATA[Keep trying new things. Drag and drop parts into the room, and move them around. Press Play and see what happens! <br />Click the Rotate button. Then click and drag an outlined part to rotate it. <br />Click the Customize button. Then click an outlined part to see how it can be customized. ]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="4" type="main">
+		<pic>images/m4.jpg</pic>
+		<title>Success!</title>
+		<desc><![CDATA[When you solve a challenge, the Fidgits you saved are added to your total score! You also unlock new Parts you can use when building your own rooms in Build + Share.<br />And if you log in with your PBS KIDS GO! account, you can keep track of how many Fidgits you have saved. ]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="5" type="main">
+		<pic>images/m5.jpg</pic>
+		<title>Sharing</title>
+		<desc><![CDATA[You can make your own rooms, and then share them with your friends! First, signup for a PBS KIDS GO! account and login. Next, add your Friends to your Friends List.<br />Then make your own rooms in Build + Share. You can send any room you have made to friends in your Friend List! ]]></desc>
+	</help>
+	
+	<help x="0" y="0" name="6" type="main">
+		<pic>images/m6.jpg</pic>
+		<title>Get Started!</title>
+		<desc><![CDATA[Ready to play? <br />Click <b>Start a Challenge</b> and save some Fidgits! <br />Or click <b>Build</b> + <b>Share</b> and make your own rooms.]]></desc>
+	</help>
+</helper>
