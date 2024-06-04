@@ -1,0 +1,160 @@
+@keyframes speen {
+    from { rotate: 0deg; }
+    to { rotate: 360deg; }
+}
+
+@font-face {
+    font-family: 'jbm';
+    src: url('JetBrainsMono.woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'jbm';
+    src: url('JetBrainsMonoXBold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: var(--jbml);
+    background-color: rgb(8, 48, 16);
+    color: #ffffff;
+}
+
+.blackbg {
+    background-color: black;
+}
+
+:root {
+    /* color presets */
+    --fuschia: rgba(255, 0, 128);
+    --fire: rgba(255, 128, 0);
+
+    --lime: rgba(128, 255, 0);
+    --sea: rgba(0, 255, 128);
+    
+    --cyan: cyan;
+    --purple: rgba(128, 0, 255);
+
+    /* font macro */
+    --jbml: 'jbm', 'JetBrains Mono', 'Consolas', 'Courier New', Courier, monospace;
+}
+
+a:link {
+    color: rgb(64, 192, 64);
+}
+a:visited {
+    color: rgb(16, 160, 96);
+}
+
+/* Display title */
+.name {
+    font-size: 500%;
+    margin: 10px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/* Main content container */
+.container {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 80%;
+    min-width: 95%;
+    background-image: linear-gradient(150deg, rgb(32, 64, 48), rgb(8, 16, 32));
+    background-color: black;
+    border-image: linear-gradient(90deg, rgb(255, 128, 128), rgb(255, 0, 128)) 30;
+    border-width: 2px;
+    border-style: solid;
+}
+.age {
+    display: inline;
+}
+
+/* 
+ * 'how do i center a div' is the frontend version of  'how do i exit vim'
+ * infamous for being really hard, but is actually deceivingly simple
+ */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.centertxt {
+    text-align: center;
+}
+
+/* multiple elements in a row */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.lang {
+    filter: opacity(25%);
+}
+
+/* 3 statement mantra */
+.mantra {
+    font-size: 200%;
+    width: 100%;
+}
+
+.epar {
+    background-color: rgb(32, 16, 32);
+    padding: 10px;
+    border-image: linear-gradient(90deg, rgb(0, 204, 255), rgb(255, 0, 128)) 30;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.epar a:visited {
+    color: deeppink;
+}
+.epar a:link {
+    color: hotpink;
+}
+
+.pointstorms {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid lime;
+    color: lime;
+}
+.pointstorms a:visited {
+    color: green;
+}
+.pointstorms a:link {
+    color: lime;
+}
+
+.restrict {
+    object-fit: contain;
+}
+
+.showcase {
+    padding: 10px;
+    height: fit-content;
+}
+
+.rowimg {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+/* Fuschia-orange gradient */
+/*.fuschia-orange {
+    background-image: linear-gradient(90deg, rgba(255, 0, 128), rgba(255, 128, 0));
+}*/
+
+/* Lime-seagreen gradient */
+/*.lime-sea {
+    background-image: linear-gradient(90deg, , );
+}*/
+
+/* Cyan-purple gradient */
+/*.cyan-purple {
+    background-image: linear-gradient(90deg, cyan, var(--purple));
+}*/
