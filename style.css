@@ -13,9 +13,19 @@
     src: url('JetBrainsMonoXBold.ttf');
     font-weight: bold;
 }
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto.woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('RobotoBold.woff2');
+    font-weight: bold;
+}
 
 body {
-    font-family: var(--jbml);
+    font-family: var(--jbm_fonts);
     background-color: rgb(8, 48, 16);
     color: #ffffff;
 }
@@ -35,8 +45,9 @@ body {
     --cyan: cyan;
     --purple: rgba(128, 0, 255);
 
-    /* font macro */
-    --jbml: 'jbm', 'JetBrains Mono', 'Consolas', 'Courier New', Courier, monospace;
+    /* font macros */
+    --jbm_fonts: 'JetBrains Mono', 'jbm', 'Consolas', 'Courier New', Courier, monospace;
+    --roboto_fonts: 'Roboto', 'roboto', 'Futura', var(--jbm_fonts);
 }
 
 a:link {
@@ -127,6 +138,21 @@ a:visited {
 }
 .pointstorms a:link {
     color: lime;
+}
+
+.scouting2200 {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 50px;
+    color: black;
+    font-family: 'roboto';
+}
+.scouting2200 a:visited {
+    color: purple;
+}
+.scouting2200 a:link {
+    color: blue;
 }
 
 .restrict {
