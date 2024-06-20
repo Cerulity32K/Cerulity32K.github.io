@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../script.js"></script>
+        <link rel="stylesheet" href="../style.css">
+        <title>Full Spidertron Belt</title>
+
+        <!-- KaTeX is used to render math. -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css"
+            integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww"
+            crossorigin="anonymous"
+        >
+
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"
+            integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"
+            integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk"
+            crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"
+        ></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="center bold jbm name">Full Spidertron Belt</h1>
+            <p class="center">How many rockets per minute would you need to fill an Express Transport Belt with Spidertrons?</p>
+            <hr>
+            <p>
+                There are multiple vehicles in Factorio. There are cars, tanks, trains, and then there's the ultimate Spidertron.<br><br>
+
+                Spidertrons are incredibly versatile and useful. Creating one is difficult. Automating them is even harder.
+                Why? It's not because of normal material requirements. At this point in the game,
+                everything required for a Spidertron should be fully automated...<br><br>
+
+                ...Except for fish.<br><br>
+
+                Fish do not respawn.<br><br>
+
+                The only way to automate fish is to <i>launch a rocket.</i><br><br>
+
+                Endgame bases are measured in rockets per hour.
+                So how many rockets per hour would you need to fill an express transport belt with Spidertrons?<br><br><br>
+
+                First, we need to know how many spidertrons we get out of one rocket.
+                We can launch a rocket with 100 space science packs to get 100 fish, giving us \(\mathrm{\frac{100\ fish}{1\ rocket}}\),
+                which, given an excess of other materials, can directly translate to \(\mathrm{\frac{100\ spidertron}{1\ rocket}}\).<br><br>
+
+                The spidertron demand for a full belt is \(\mathrm{\frac{45\ spidertron}{1\ second}}\), which is equivalent to \(\mathrm{\frac{162000\ spidertron}{1\ hour}}\).<br><br>
+
+                Now we can calculate the number of rockets per hour to satisfy this requirement.
+                $$\mathrm{\frac{162000\ spidertron}{1\ hour}\times\frac{1\ rocket}{100\ spidertron}=\frac{1620\ rocket}{1\ hour}}$$
+                That's a lot of rockets!<br><br>
+
+                But we're not finished yet. What throughput of raw materials would it take to fulfill this rocket demand?<br><br>
+
+                First, let's quantify some recipes. \(\mathrm{1\ rocket\ part=10\ LDS+10\ RCU+10\ rocket\ fuel}\).
+                LDS is low density structure, and RCU is a rocket control unit.<br>
+
+                Now, \(\mathrm{1\ LDS=20\ copper+5\ plastic+2\ steel}\), \(\mathrm{1\ RCU=32.5\ copper+15\ iron+10\ plastic+1\ blue\ circuit}\), and \(\mathrm{1\ rocket\ fuel=110\ light\ oil}\).<br><br>
+
+                Let's put it all into one big equation. First, the complex materials for each rocket.
+
+                $$\mathrm{
+                    \frac{1620\ rocket}{1\ hour}\times
+                    \frac{100\ rocket\ part}{1\ rocket}\times
+                    \left(
+                        \frac{10\ LDS}{1\ rocket\ part}+
+                        \frac{10\ RCU}{1\ rocket\ part}+
+                        \frac{10\ rocket\ fuel}{1\ rocket\ part}
+                    \right)
+                }$$
+
+                Now, let's separate the materials out into their raw components.
+
+                $$\mathrm{
+                    \frac{1620\ rocket}{1\ hour}\times
+                    \frac{100\ rocket\ part}{1\ rocket}\times
+                    \left(
+                        \left(\frac{10\ LDS}{1\ rocket\ part}\times\frac{(20\ copper+5\ plastic+2\ steel)}{1\ LDS}\right)+
+                        \left(\frac{10\ RCU}{1\ rocket\ part}\times\frac{(32.5\ copper+15\ iron+10\ plastic+1\ blue\ circuit)}{1\ RCU}\right)+
+                        \left(\frac{10\ rocket\ fuel}{1\ rocket\ part}\times\frac{110\ light\ oil}{1\ rocket\ fuel}\right)
+                    \right)
+                }$$
+                What a massive equation! Let's simplify.
+                $$\mathrm{
+                    \frac{1620\ rocket}{1\ hour}\times
+                    \frac{100\ rocket\ part}{1\ rocket}\times
+                    \left(
+                        \frac{200\ copper+50\ plastic+20\ steel}{1\ rocket\ part}+
+                        \frac{325\ copper+150\ iron+100\ plastic+10\ blue\ circuit}{1\ rocket\ part}+
+                        \frac{1100\ light\ oil}{1\ rocket\ part}
+                    \right)
+                }$$
+                $$\mathrm{
+                    \frac{1620\ rocket}{1\ hour}\times
+                    \frac{100\ rocket\ part}{1\ rocket}\times
+                    \frac{
+                        150\ iron+
+                        525\ copper+
+                        150\ plastic+
+                        20\ steel+
+                        10\ blue\ circuit+
+                        1100\ light\ oil
+                    }{1\ rocket\ part}
+                }$$
+                $$\mathrm{
+                    \frac{1620\ rocket}{1\ hour}\times
+                    \frac{
+                        15000\ iron+
+                        52500\ copper+
+                        15000\ plastic+
+                        2000\ steel+
+                        1000\ blue\ circuit+
+                        110000\ light\ oil
+                    }{1\ rocket}
+                }$$
+                $$\mathrm{
+                    \frac{
+                        24300000\ iron+
+                        85050000\ copper+
+                        24300000\ plastic+
+                        3240000\ steel+
+                        1620000\ blue\ circuit+
+                        178200000\ light\ oil
+                    }{1\ hour}
+                }$$
+                That's how many raw materials you would need per hour for rockets to automate a full belt of Spidertrons!
+                Let's convert to seconds and ticks to get a better sense of scale.
+                $$\mathrm{
+                    \frac{
+                        6750\ iron+
+                        23625\ copper+
+                        6750\ plastic+
+                        900\ steel+
+                        450\ blue\ circuit+
+                        49500\ light\ oil
+                    }{1\ second}
+                }$$
+                $$\mathrm{
+                    \frac{
+                        112.5\ iron+
+                        393.75\ copper+
+                        112.5\ plastic+
+                        15\ steel+
+                        7.5\ blue\ circuit+
+                        825\ light\ oil
+                    }{1\ tick}
+                }$$
+                Is this insurmountible? I mean... if a bunch of players can get together and make a
+                <a href="https://www.reddit.com/r/factorio/comments/1b5kayc/eternity_cluster_achieves_world_record_1_million/">
+                    1 million science per minute base</a>,
+                who knows what's possible?
+            </p>
+        </div>
+    </body>
+</html>
